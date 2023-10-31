@@ -6,6 +6,7 @@ from stat import *
 
 # Output should be in the format of find /usr/bin -name '*mk*' -print
 
+
 def myFind(top, afile):
     root = os.listdir(top)
     size = 0
@@ -34,4 +35,3 @@ if __name__ == "__main__":
     second = sys.argv[2]
 
     myFind(first, second)
-
